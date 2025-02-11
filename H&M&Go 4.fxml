@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fill="#0c1cd4" layoutX="248.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Detalles de Envío" wrappingWidth="245.7659912109375">
+         <font>
+            <Font name="Comic Sans MS Italic" size="28.0" />
+         </font>
+      </Text>
+      <Text layoutX="160.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¡Por favor, proporcione la siguiente informacion!">
+         <font>
+            <Font name="Comic Sans MS Italic" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="184.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Remitente:">
+         <font>
+            <Font name="Comic Sans MS Italic" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="177.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Destinatario:">
+         <font>
+            <Font name="Comic Sans MS Italic" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="197.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Direccióń:">
+         <font>
+            <Font name="Comic Sans MS Italic" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="160.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Numero celular:">
+         <font>
+            <Font name="Comic Sans MS Italic" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="140.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Correo de contacto:">
+         <font>
+            <Font name="Comic Sans MS Italic" size="14.0" />
+         </font>
+      </Text>
+      <TextField layoutX="285.0" layoutY="210.0" />
+      <TextField layoutX="285.0" layoutY="171.0" />
+      <TextField layoutX="285.0" layoutY="245.0" />
+      <TextField layoutX="285.0" layoutY="275.0" />
+      <TextField layoutX="285.0" layoutY="305.0" />
+      <ImageView fitHeight="114.0" fitWidth="149.0" layoutX="87.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../OneDrive/Imágenes/Capturas%20de%20pantalla/Captura%20de%20pantalla%202025-02-10%20215135.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="26.0" layoutY="331.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="94.0" text="Regresar">
+         <font>
+            <Font name="Comic Sans MS Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="482.0" layoutY="331.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="94.0" text="Finalizar">
+         <font>
+            <Font name="Comic Sans MS Italic" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="407.0" fitWidth="234.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../OneDrive/Imágenes/888c8fcd3f75fa4133171cbe6f15e8f7.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#0ba6fa" layoutX="351.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vielka Guadalupe Mena Dominguez">
+         <font>
+            <Font name="Comic Sans MS Italic" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#0ba6fa" layoutX="351.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jose Aguilar Canepa">
+         <font>
+            <Font name="Comic Sans MS Italic" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#0c17ea" layoutX="292.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sistema de Paquetería">
+         <font>
+            <Font name="Comic Sans MS Italic" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="#0c17ea" layoutX="251.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hecho por:">
+         <font>
+            <Font name="Comic Sans MS Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#0c17ea" layoutX="297.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Para: ">
+         <font>
+            <Font name="Comic Sans MS Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="261.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Maquetado de sistema de paquetería">
+         <font>
+            <Font name="Comic Sans MS Italic" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="261.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Este es un maquetado de un sistema de paquetería que permite a los clientes cotizar y gestionar sus envíos, el cliente podrá ingresar datos básicos como dimensiones y los códigos postales de destino, tambien hay una lista de opciones de envío de los servicios, junto con las tarifas y tiempos de entrega, se selecciona la opción que más le convenga y, a continuación, se ingresan los datos del remitente y destinatario (nombre, dirección, teléfono). Finalmente, el sistema muestra un mensaje de confirmación indicando que el envío se ha creado con éxito y estará listo para ser procesado. " textAlignment="JUSTIFY" wrappingWidth="311.9999389648437">
+         <font>
+            <Font name="Comic Sans MS Italic" size="12.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
